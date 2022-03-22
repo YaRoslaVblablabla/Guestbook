@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+body{
+	background-image: url("../img/fon.jpg");
+}
+
+.container
+	{
+		align-items: center;
+		justify-content: center;
+		margin: 30px 0 30px 100px;
+		border: 2px solid green;
+		width: 100px;
+		background: #FAFAFA;
+	    border-radius: 15px;
+	    width: 360px;
+	    padding: 20px 25px;
+	    display: flex;
+	    flex-direction: column;
+
+}
+
+.container h2{
+    font: normal 600 24px/130% 'Gilroy';
+    letter-spacing: 0.01em;
+    margin-bottom: 8px;
+    color: #999999;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container h3{
+    font: normal 600 15px/155% 'Gilroy';
+    letter-spacing: 0.01em;
+    color: #999999;
+    margin-bottom: 5px;
+}
+
+.container button{
+    margin-top: 25px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10.5px 25px;
+    background: #999999;
+    border-radius: 10px;
+    font: normal 600 15px/155% 'Gilroy';
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    width: 300px;
+}
+
+input[type="text"] {
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 12.5px 20px;
+width: 300px;
+height: 44px;
+background: #F8F9FB;
+border: 1px solid #E5E5E5;
+box-sizing: border-box;
+border-radius: 10px;
+}
+
+.container .btn:hover{
+	background-color: #878787;
+}
+
+.del-upd{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.del-upd .upd{
+    font: normal 600 15px/155% 'Gilroy';
+    color: green;
+}
+
+.del-upd .del{
+    font: normal 600 15px/155% 'Gilroy';
+    color: red;
+}
+
+.asd{
+    font: normal 600 13px/155% 'Gilroy';
+    display: inline-block;
+    margin-top: 20px;
+    text-align: left;
+    width: 100%;
+}
+
+.gb{
+    width: 500px;
+    margin: 30px auto;
+}

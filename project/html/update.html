@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+
+</head>
+<body>
+
+<div class="container gb">
+	<h2>Новый комментарий</h2>
+	<form action='../php/Function/Update.php' method="post">
+		<h3>
+			<?php echo 'Имя пользователя - '.$userName; ?>
+		</h3>
+		<h3>введите сообщение<br>
+			<label for="text" placeholder='Введите соощение'></label>
+			<textarea name='txt'></textarea>
+		</h3>
+		<button name="submit" class="btn btn-success">Написать</button>
+	</form>
+</div>
+	<hr>
+
+</body>
+</html>
